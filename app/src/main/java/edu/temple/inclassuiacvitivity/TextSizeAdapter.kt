@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 
-class TextSizeAdapter(_context: Context, _textSizes: Array<Int>): BaseAdapter()
+open class TextSizeAdapter(_context: Context, _textSizes: Array<Int>): BaseAdapter()
 {
     val context= _context
     val textSizes= _textSizes //collection of text sizes
